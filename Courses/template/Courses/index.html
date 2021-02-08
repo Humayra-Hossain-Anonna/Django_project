@@ -1,0 +1,5 @@
+<ul>
+	{% for summary in all_courses %}
+	<li><a href="/Courses/{{ summary.id }}/">{{ summary.course_code }}</a><li>
+    {% endfor %}
+</ul>		
